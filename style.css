@@ -254,9 +254,9 @@
             outline-color: red;
         }
         
-        @media screen and (max-device-width:100%) {
+        @media (max-width:100%) {
             .container {
-                width: 100%;
+                width: device-width;
                 background-size: 100%;
             }
         }
